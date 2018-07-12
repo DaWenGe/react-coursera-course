@@ -43,7 +43,7 @@ const DishDetail = props => {
 	if (props.dish) {
 		return (
 			<div className="container">
-				<div className="row text-left">
+				<div className="row">
 					<RenderDish dish={props.dish} />
 					<RenderComments comments={props.dish.comments} />
 				</div>
